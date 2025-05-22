@@ -34,12 +34,24 @@ This lab demonstrates how to monitor an EC2 instance using Amazon CloudWatch. It
 
 ---
 
-## 🖼️ Screenshots
+## 📸 Screenshots
 
-1. ![CPU Usage Graph](cpu-usage-graph.png)
-2. ![CloudWatch Alarm](cloudwatch-alarm.png)
-3. ![SNS Confirmation Email](sns-confirmation-email.png)
-4. ![EC2 Stress Command](ec2-stress-command.png)
+### 1. EC2 Terminal - Stress Command
+Command used to simulate CPU activity for testing.
+![EC2 Stress Command](ec2-stress-command.png)
+
+### 2. CloudWatch CPU Utilization Graph
+Shows the spike in CPU usage after running the stress test.
+![CloudWatch CPU Graph](cpu-usage-graph.png)
+
+### 3. CloudWatch Alarm Setup
+Alarm configured to trigger when CPU exceeds 70%.
+![CloudWatch Alarm](cloudwatch-alarm.png)
+
+### 4. SNS Email Notification Confirmation
+Email subscription is confirmed for alert notifications.
+![SNS Email Confirmation](sns-confirmation-email.png)
+
 
 ---
 
